@@ -2,13 +2,19 @@ body {
     background-color: #FFFFFF;
     font-family: sans-serif;
     }
-
-.top-line {
+.title {
     position: absolute;
     width: 1440px;
     height: 72px;
     left: 0px;
     top: 0px;
+}
+.nav-tittle {
+    position: absolute;
+    width: 115px;
+    height: 24px;
+    left: 156px;
+    top: 24px;
 }
 .logo {
     font-family: Raleway;
@@ -16,44 +22,98 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
+    text-transform: uppercase;
+    text-decoration: none;
 
     color: #4D5AE5;
-
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0;
+}
+.logo-studio {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
 
-    position: absolute;
-    width: 115px;
-    height: 24px;
-    left: 156px;
-    top: 24px;
+    color: #2E2F42;
+    display: flex;
+    align-items: center;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
 }
 .link {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     padding: 0;
     gap: 40px;
+    color: #2E2F42;
 
     position: absolute;
     width: 261px;
     height: 24px;
     left: 347px;
-    top: 24px;
+    top: 0px;
 }
-.adress 
+.link-item {
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+text-decoration: none;
+
+letter-spacing: 0.02em;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.studio {
+    width: 48px;
+    height: 24px;
+}
+.portfolio {
+    width: 66px;
+    height: 24px;
+}
+.contacts{
+    width: 67px;
+    height: 24px;
+}
+.adress {
+   
+}
 .adress-item {
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+
     letter-spacing: 0.02em;
+
     color: #434455;
 
-
+    text-decoration: none;
+}
+.mailto {
+    position: absolute;
+    width: 153px;
+    height: 24px;
+    left: 940px;
+    top: 24px;
+}
+.tel {
+    position: absolute;
+    width: 151px;
+    height: 24px;
+    left: 1133px;
+    top: 24px;
 }
 .hero {
     background-color: #2E2F42;
@@ -63,19 +123,195 @@ body {
     left: 0px;
     top: 72px;
 }
-.feature {
+.hero-tittle {
     position: absolute;
-    width: 1128px;
+    width: 496px;
+    height: 120px;
+    left: 472px;
+    top: 140px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF
+
+}
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 358px;
+    
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.button:hover,.button:focus {
+    background-color: #a52a2a;
+}
+.feature {
+    
+}
+.feature-tittle {
+   
+}
+.feature-list {
+    box-sizing: border-box; 
+    width: 264px;
+    height: 72px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    
+
+}
+.feature-list-item-strategy {   
+    box-sizing: border-box; 
+    position: absolute;
+    width: 264px;
     height: 104px;
-    left: 156px;
+    left: 92px;
     top: 792px;
+    
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+.feature-list-item-punktuality{ 
+    box-sizing: border-box;
+
+   position: absolute;
+   width: 264px;
+   height: 104px;
+   left: 404px;
+   top: 792px;
+   
+   background: #FFFFFF;
+   border: 1px solid #000000; 
+}
+.feature-list-item-diligence{ 
+    box-sizing: border-box;
+
+   position: absolute;
+   width: 264px;
+   height: 104px;
+   left: 720px;
+   top: 792px;
+   
+   background: #FFFFFF;
+   border: 1px solid #000000;
+}
+.feature-list-item-technologies{ 
+    box-sizing: border-box;
+
+   position: absolute;
+   width: 264px;
+   height: 104px;
+   left: 1032px;
+   top: 792px;
+   
+   background: #FFFFFF;
+   border: 1px solid #000000;
+}
+.feature-item-tittle {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 24px;
+   
+   letter-spacing: 0.02em;
+   
+   color: #2E2F42;
+}
+.feature-content {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    letter-spacing: 0.02em;
+
+    color: #434455;
 }
 .about {
+   
+}
+.about-tittle {
     position: absolute;
-    width: 1128px;
-    height: 412px;
+width: 323px;
+height: 40px;
+left: 559px;
+top: 1016px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+color: #2E2F42;
+
+}
+.about-list {
+}
+.about-item {
+}
+.about-decktopimg {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 360px;   
+    height: 300px;
     left: 156px;
-    top: 1016px;
+    top: 1128px;
+}
+.about-smartphonimg {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 360px;
+    height: 300px;
+    left: 540px;
+    top: 1128px;
+}
+.about-aplicationimg {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 360px;
+    height: 300px;
+    left: 924px;
+    top: 1128px;
 }
 .team {
     position: absolute;
@@ -83,11 +319,140 @@ body {
     height: 732px;
     left: 0px;
     top: 1548px;
+
+    background: #F4F4FD;
+}
+.team-tittl {
+    position: absolute;
+    width: 162px; 
+    height: 40px;
+    left: 639px;
+    top: 30px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    color: #2E2F42;
+}
+.team-list li {
+   
+}
+.team-list-item-mark {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+    
+    position: absolute;
+    width: 264px;
+    height: 380px;
+    left: 156px;
+    top: 270px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+.team-list-item-tom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+    
+    position: absolute;
+    width: 264px;
+    height: 380px;
+    left: 444px;
+    top: 270px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+.team-list-item-camila {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+    
+    position: absolute;
+    width: 264px;
+    height: 380px;
+    left: 732px;
+    top: 270px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;   
+}
+.team-list-item-daniel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+    
+    position: absolute;
+    width: 264px;
+    height: 380px;
+    left: 1020px;
+    top: 270px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+.team-item-img {
+
+}
+.team-item-name {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #2E2F42;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.team-item-function {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #434455;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
 }
 .footer {
-    position: absolute;
-    width: 1440px;
-    height: 312px;
-    left: 0px;
-    top: 2280px; 
+}
+.feature-item {
 }
