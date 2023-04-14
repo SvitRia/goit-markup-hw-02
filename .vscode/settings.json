@@ -1,5 +1,6 @@
 {
-    "prettier.bracketSameLine": true
+    "prettier.bracketSameLine": true 
+ },
 
    "editor.tokenColorCustomizations": {
         "textMateRules": [
