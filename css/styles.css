@@ -1,9 +1,10 @@
 :root {
     /*--color--*/
 --btn-color-iris: #4d5ae5;
+--btn-color-okean: #404BBF;
 --text-color: #434455;
 --main-header-color: #2e2f4;
---white-color: #fffV;
+--white-color: #fff;
 --backgraund-light: #f4f4fD;
 --backgraund-dark: #2E2F42;
 }
@@ -74,6 +75,56 @@
 	text-decoration: none;
 	text-transform: none;
 }
+.btn-portfolio-box {
+    box-sizing: border-box;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+
+height: 48px;
+
+background: var(--backgraund-light);
+
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.btn-portfolio-text {
+    font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+
+color: var(--btn-color-iris);
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.card-box {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 360px;
+    height: 420px;
+    left: 156px;
+    top: 288px;
+    
+    
+    border: 1px solid #E7E9F
+}
+
 
 body {
     background-color: var(--white-color);
@@ -114,12 +165,6 @@ body {
     align-items: center;
 }
 .logo-studio {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    text-decoration: none;
 
     color: #2E2F42;
     display: flex;
@@ -144,6 +189,8 @@ body {
     left: 347px;
     top: 0px;
 }
+
+
 .link-item {
 
     flex: none;
@@ -456,6 +503,61 @@ body {
 
 
 }
+.portfolio-list {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 586px;
+height: 48px;
+left: 427px;
+top: 168px;
+}
+
+.All {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 24px;
+
+width: 69px;
+height: 48px;
+
+background: var(--btn-color-okean);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+color: var(--white-color);
+}
+.WebSite {
+ 
+}
+.App {
+}
+.Design {
+}
+.Marketing {
+}
+.top-row-cardbox {
+position: absolute;
+width: 1128px;
+height: 420px;
+left: 156px;
+top: 288px;
+}
+.card-cashless{
+   left: 540px; 
+}
+.card-meditation {
+    left: 924px;
+}
+
 .footer {
     
 position: absolute;
