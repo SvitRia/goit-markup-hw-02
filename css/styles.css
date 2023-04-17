@@ -18,8 +18,9 @@
 	letter-spacing: 0.02em;
 	text-decoration: none;
 	text-transform: none;
+    line-height: 1.07
 
-    color:  #2E2F42; 
+    color: var(--backgraund-dark); 
 }
 .main-tittle-light {
     color:#FFFFFF;
@@ -33,7 +34,7 @@
 	letter-spacing: 0.02em;
 	text-decoration: none;
 	text-transform: capitalize;
-    line-height: 1.11;
+    line-height: 1.2;
     text-align: center;
 }
 .subtittle {
@@ -47,6 +48,7 @@
 	text-transform: none;
     line-height: 1.11; 
     text-align: center;
+    
 }
 
 .description {
@@ -147,10 +149,10 @@ flex-grow: 0;
 
 
 body {
-    font-family: "Roboto" sans-serif;
+    
     color: var(--text-color);
     background-color: var(--white-color);
-        font-family: "Roboto";
+        font-family: "Roboto" sans-serif;
         font-weight: 400;
         font-style: normal;
         line-height: 24px;
@@ -181,7 +183,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
 
-    color: #4D5AE5;
+    color: var(--btn-color-iris);
     display: flex;
     line-height: 1.17;
     letter-spacing: 0.03em;
