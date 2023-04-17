@@ -19,8 +19,7 @@
 	text-decoration: none;
 	text-transform: none;
     line-height: 1.07
-
-    color: var(--backgraund-dark); 
+    
 }
 .main-tittle-light {
     color:#FFFFFF;
@@ -202,7 +201,6 @@ body {
     list-style: none;
 }
 .link {
-    te
     text-decoration: none;
     color:var(--text-color);
 }
