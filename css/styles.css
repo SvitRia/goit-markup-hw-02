@@ -10,7 +10,7 @@
 }
 /*base styles*/
 body {
-    font-family: "Roboto" sans-serif;
+    font-family:"Roboto" sans-serif;
     font-weight: 400;
     font-style: normal;
     line-height: 24px;
@@ -114,6 +114,13 @@ background-color: var(--white-color);
 .logo-studio {
 
     color:var(--backgraund-dark);
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo-studio-light {
+    color:var(--white-color);
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -560,8 +567,10 @@ top: 756px;
 }
 
 .footer {
-
 background: var(--backgraund-dark)
+}
+.footer-item {
+    color: var(--white-color);
 }
 .feature-item {
 
