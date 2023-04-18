@@ -131,8 +131,12 @@ body {
 .header-nav-link {
     color: var(--backgraund-dark);
 }
-.header-nav-link:hover,
-.header-nav-link:focus,
+.header-nav-link:hover {
+    color: var(--btn-color-okean);
+}
+.header-nav-link:focus {
+    color: var(--btn-color-okean);
+}
 .adress-link:hover {
     color: var(--btn-color-okean);
 }
