@@ -76,8 +76,8 @@ body {
     color: var(--text-color);
 }
 .button-text {
-	font-size: 16px;
-	font-family: var(--primary-font);
+	font-family: "Roboto", sans-serif;
+    font-size: 16px;
 	font-weight: 500;
 	font-style: normal;
 	line-height: 1.5;
@@ -117,7 +117,7 @@ body {
     text-transform: uppercase;
 }
 .logo-studio-light {
-    color:var(--white-color);
+    color:var(--backgraund-light);
     text-transform: uppercase;
 }
 .list {
@@ -127,6 +127,9 @@ body {
 .link {
     text-decoration: none;
     
+}
+.header-nav-link {
+    color: var(--backgraund-dark);
 }
 .header-nav-link:hover, .header-nav-link:focus, .mailto:hover, .tel:hover {
     color: var(--btn-color-okean);
@@ -188,9 +191,11 @@ body {
 }
 
 .team {
-    background:var(--white-color);
+    background:var(--backgraund-light);
 }
-
+.team-item {
+    background-color: var(--white-color);
+}
 /*-----portfolio-----*/
 
 .btn-portfolio-box {
