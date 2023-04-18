@@ -1,6 +1,6 @@
 :root {
     /*--font--*/
---primary-font: "Roboto", sant-serif;
+--primary-font: "Roboto",  sant-serif;
 --secondary-font: "Raleway", sant-serif;
     
     /*--color--*/
@@ -76,7 +76,7 @@ body {
     color: var(--text-color);
 }
 .button-text {
-	font-family: "Roboto", sans-serif;
+	font-family: inherit;
     font-size: 16px;
 	font-weight: 500;
 	font-style: normal;
@@ -138,19 +138,16 @@ body {
     color: var(--backgraund-dark);
     text-decoration: none;  
    }
-   .mailto {
+   .adress-link {
     text-decoration: none;
     color: var(--text-color);
 }
-.tel {
-    text-decoration: none;
-    color: var(--text-color);
-}
+
 .adress {
     font-style: normal;
 }  
  .button {
-        font-family: var(--primary-font);
+
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -163,7 +160,7 @@ body {
         cursor: pointer;
     }
     .button-light {
-        font-family: var(--primary-font);
+      
         display: flex;
         flex-direction: row;
         align-items: flex-start;
