@@ -134,10 +134,10 @@ background-color: var(--white-color);
     color:var(--text-color);
 }
 /*------------------------*/
-a:hover a:focus {
-    color: #404bbf;
-    
+.header-nav-link:hover,header-nav-link:focus {
+    color: var(--btn-color-okean);
 }
+
 
 .btn-portfolio-box {
     box-sizing: border-box;
