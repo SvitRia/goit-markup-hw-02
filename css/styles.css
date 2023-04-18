@@ -131,7 +131,9 @@ body {
 .header-nav-link {
     color: var(--backgraund-dark);
 }
-.header-nav-link:hover, .header-nav-link:focus, .adress-link:hover {
+.header-nav-link:hover,
+.header-nav-link:focus,
+.adress-link:hover {
     color: var(--btn-color-okean);
 }
 .link-item {
