@@ -14,7 +14,7 @@
 }
 /*base styles*/
 body {
-    font-family: var(--primary-font);
+    font-family:"Roboto",sans-serif;
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
@@ -128,7 +128,6 @@ body {
     text-decoration: none;
     
 }
-/*------------------------*/
 .header-nav-link:hover, .header-nav-link:focus {
     color: var(--btn-color-okean);
 }
@@ -268,7 +267,19 @@ flex-grow: 0;
     border-radius: 4px;
     cursor: pointer;
 }
-.button:hover, .button:focus {
+.button-light {
+    font-family: var(--primary-font);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+    color: var(--btn-color-iris);
+    background:var(--backgraund-light);
+    cursor: pointer;
+
+}
+.button:hover, .button:focus, .button-light:hover, .button-light:focus {
     background-color:var(--btn-color-okean);
     color: var(--white-color);
 }
