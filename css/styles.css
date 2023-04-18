@@ -126,7 +126,7 @@ body {
 }
 .link {
     text-decoration: none;
-    color:var(--text-color);
+    
 }
 /*------------------------*/
 .header-nav-link:hover, .header-nav-link:focus {
