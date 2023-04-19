@@ -133,7 +133,8 @@ body {
 }
 .header-nav-link:hover,
 .header-nav-link:focus,
-.adress-link:hover {
+.adress-link:hover,
+.adress-link:focus {
     color: var(--btn-color-okean);
 }
 .link-item {
@@ -185,9 +186,6 @@ body {
     background-color: var(--backgraund-dark);
 }
 
-.future-item {
-    text-align: center;
-}
 
 .team {
     background:var(--backgraund-light);
